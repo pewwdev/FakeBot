@@ -1,0 +1,47 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Silkscreen", system-ui;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(2.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 3px 5px rgb(37, 67, 233);
+}
+
+#pertanyaan {
+    font-size: 22px;
+    text-align: center;
+}
+
+.row {
+    border: none;
+    color: #222222;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+input {
+    padding: 5px;
+    background-color: #ffa8e2;
+}
+
+button {
+    background-color: aquamarine;
+    padding: 5px;
+}
